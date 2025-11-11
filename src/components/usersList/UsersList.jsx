@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import Paper from '@mui/material/Paper';
 import './UsersList.css';
-import { render } from '@testing-library/react';
 import { Link } from 'react-router-dom';
 
 import EditIcon from '@mui/icons-material/Edit';
