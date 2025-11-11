@@ -1,0 +1,66 @@
+.bestProductsWrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.showAllButton {
+    width: 110px ;
+    background-color: #fff ;
+    border: 1px solid #eee ;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.product {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.productPoster img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.productTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.productPrecent {
+    width: 60px;
+    height: 25px;
+    background-color: #DCFCEC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #10B981;
+    transition: all 0.3s ease;
+}
+
+.productPrecent.negative {
+    background-color: #FEE2E2;
+    color: #EF4444;
+}
+
+.titleSpan {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+
+.sellSpan {
+    font-size: 12px;
+    color: #777;
+}

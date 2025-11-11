@@ -1,0 +1,28 @@
+.usersContainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.actions {
+
+}
+
+.deleteBtn {
+
+}
+
+.actionBtn {
+    border: none;
+    padding: 2px;
+    margin: 2px;
+    background-color: transparent;
+}
+
+.editBtn {
+
+}

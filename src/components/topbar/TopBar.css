@@ -1,0 +1,55 @@
+.topbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ebe6e6;
+
+}
+
+.topbarLeft {
+    display: flex;
+    align-items: center;
+}
+
+.topbarAdminImg {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.topbarIcon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #959494;
+    border-radius: 50%;
+    transition: all 200ms ease;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+}
+
+.topbarIcon:hover {
+    color: #000;
+    /* box-shadow:inset 0px 0px 10px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.topbarRight {
+    display: flex;
+    align-items: center;
+}

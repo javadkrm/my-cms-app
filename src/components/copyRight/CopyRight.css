@@ -1,0 +1,12 @@
+.copyRightContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+.copyRightText {
+    color: #555;
+    font-size: 13px
+}

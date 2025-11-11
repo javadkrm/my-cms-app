@@ -1,0 +1,66 @@
+.BestCountriesContainer {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 513px
+}
+
+.countriesTitle {
+    font-size: 17px;
+    text-align: end;
+}
+
+.BestCountriesWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.countryFlag {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.countriesImg {
+    display: flex;
+    align-items: center;
+}
+
+.countriesInfos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.country {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.countryData {
+    width: 50%;
+}
+
+.countryName,
+.precent {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.progressBar {
+    display: flex;
+    align-items: center;
+}
+
+.progress {
+    width: 100% !important;
+    height: 10px !important;
+    margin-right: 10px;
+}

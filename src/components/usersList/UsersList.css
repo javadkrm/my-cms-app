@@ -1,0 +1,22 @@
+.userName a{
+    text-decoration: none ;
+    color: #000;
+}
+
+.actionWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.editBtn , .deleteBtn {
+    border: none;
+    background-color: transparent;
+}
+
+.editBtn {
+    color: green;
+}
+
+.deleteBtn {
+    color: red;
+}

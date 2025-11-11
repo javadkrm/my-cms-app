@@ -1,0 +1,56 @@
+.main-user-container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-user-container:hover {
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
+
+.main-user-container h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.main-user-container p {
+  font-size: 1rem;
+  color: #555;
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+
+.main-user-container strong {
+  color: #1976d2; 
+}
+
+
+.main-user-container p + p {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main-user-container {
+  animation: fadeInUp 0.5s ease forwards;
+}

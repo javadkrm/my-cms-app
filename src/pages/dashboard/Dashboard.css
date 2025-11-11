@@ -1,0 +1,18 @@
+.dashboardContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboardUp {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.dashboardLeft {
+    flex: 1;
+}
+
+.dashboardRight {
+    flex: 2;
+}

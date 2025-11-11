@@ -1,0 +1,55 @@
+.salesTargetContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.salesTargetTitlecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+}
+
+.salesTargetTitle {
+    font-size: 17px;
+}
+
+
+.salesTargetContent {
+    display: flex;
+    align-items: center;
+}
+
+.salesTargetDetails {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    text-align: end;
+}
+
+.box svg,
+.box span {
+    width: 90px !important;
+    height: 90px !important;
+}
+
+.salesTargetNumber {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.salesTargetlittleNumber {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.salesTargetMonth {
+    font-size: 13px;
+    font-weight: 400;
+    color: #818181;
+}
