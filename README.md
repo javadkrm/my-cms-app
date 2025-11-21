@@ -1,6 +1,6 @@
 ## Live Demo
 
-Click on : https://javadkrm.github.io
+Click on : https://javadkrm.github.io/my-cms-app/
 
 ### Page Schema
 
