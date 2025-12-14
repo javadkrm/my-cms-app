@@ -1,3 +1,5 @@
+let PUBLIC_URL = process.env.PUBLIC_URL;
+
 let homeChartData = [
     { name: 'ژانویه', فروش: 4000, بازدیدکننده: 2400 },
     { name: 'فوریه', فروش: 3000, بازدیدکننده: 1398 },
@@ -9,24 +11,20 @@ let homeChartData = [
 ]
 
 let bestProductsData = [
-    {id: 1, title: 'Maneki Neko', sell: 1243, poster: 'posters/1.png', precent: 15.2},
-    {id: 2, title: 'Echoes Necklace', sell: 1443, poster: 'posters/2.png', precent: 1.3},
-    {id: 3, title: 'Spiky Ring', sell: 1543, poster: 'posters/3.png', precent: 5.2},
-    {id: 4, title: 'Pastel Petals Poster', sell: 243, poster: 'posters/4.png', precent: 1.34},
-    {id: 5, title: 'Il Lemone', sell: 2343, poster: 'posters/5.png', precent: -1},
-    {id: 6, title: 'Ringed Earring', sell: 646, poster: 'posters/6.png', precent: -1.54},
+    {id: 1, title: 'Maneki Neko', sell: 1243, poster: `${PUBLIC_URL}posters/1.png`, precent: 15.2},
+    {id: 2, title: 'Echoes Necklace', sell: 1443, poster: `${PUBLIC_URL}posters/2.png`, precent: 1.3},
+    {id: 3, title: 'Spiky Ring', sell: 1543, poster: `${PUBLIC_URL}posters/3.png`, precent: 5.2},
+    {id: 4, title: 'Pastel Petals Poster', sell: 243, poster: `${PUBLIC_URL}posters/4.png`, precent: 1.34},
+    {id: 5, title: 'Il Lemone', sell: 2343, poster: `${PUBLIC_URL}posters/5.png`, precent: -1},
+    {id: 6, title: 'Ringed Earring', sell: 646, poster: `${PUBLIC_URL}posters/6.png`, precent: -1.54},
 ]
 
 let countriesDatas = [
-    {id: 1, name: 'USA', flag:'flags/US.png', precent: 38.60},
-    {id: 2, name: 'Brasil', flag:'flags/BR.png', precent: 32.79},
-    {id: 3, name: 'India', flag:'flags/IN.png', precent: 26.42},
-    {id: 4, name: 'United Kingdom', flag:'flags/UK.png', precent: 17.42},
-    {id: 5, name: 'Turkey', flag:'flags/TR.png', precent: 12.85},
-]
-
-let recentOrdersData = [
-    {}
+    {id: 1, name: 'USA', flag:`${PUBLIC_URL}flags/US.png`, precent: 38.60},
+    {id: 2, name: 'Brasil', flag:`${PUBLIC_URL}flags/BR.png`, precent: 32.79},
+    {id: 3, name: 'India', flag:`${PUBLIC_URL}flags/IN.png`, precent: 26.42},
+    {id: 4, name: 'United Kingdom', flag:`${PUBLIC_URL}flags/UK.png`, precent: 17.42},
+    {id: 5, name: 'Turkey', flag:`${PUBLIC_URL}flags/TR.png`, precent: 12.85},
 ]
 
 
